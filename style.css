@@ -269,5 +269,13 @@
   .win-screen.show {
     display: flex;
   }
+
+  .x.highlight {
+    background-color: rgba(255, 0, 0, 0.5);
+  }
+
+  .o.highlight {
+    background-color: rgba(0, 0, 255, 0.5);
+  }
 ____________________________________________
 
