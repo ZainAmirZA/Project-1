@@ -271,12 +271,14 @@
   }
 
   .x.highlight {
-    background-color: rgba(255, 0, 0, 0.5);
+    background-color: rgba(255, 0, 0, 1);
+    height: calc(var(--cell-size) * 1.9);
    
   }
 
   .o.highlight {
-    background-color: rgba(0, 0, 255, 0.5);
+    background-color: rgba(0, 0, 255, 1);
+    height: calc(var(--cell-size) * 1.9);
   }
 ____________________________________________
 
