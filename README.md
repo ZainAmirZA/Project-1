@@ -18,19 +18,19 @@ The objective of this game is to conquer 3 tiles in a row (vertically, horizonta
 ### Screenshots 
 
 **Starting Board** 
-![](images/blank%20board.png)
+![](images/blank%20board.PNG)
 
 **Player characters Placed**
-![](images/Characters%20Placed.png)
+![](images/Characters%20Placed.PNG)
 
 **Player X wins a tile**
-![](images/TileX.png)
+![](images/TileX.PNG)
 
 **Player O wins a tile**
-![](images/TileO.png)
+![](images/TileO.PNG)
 
 **Player Winning Screen with Restart Button**
-![](images/PlayerWins.png)
+![](images/PlayerWins.PNG)
 
 ### Technologies Used
 - HTML
