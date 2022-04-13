@@ -1,12 +1,12 @@
-#SUPER TIC TAC TOE
+# SUPER TIC TAC TOE
 
-##About
+## About
 
 We have all been playing Tic Tac Toe since we were toddlers, now its time to take it up a notch. Welcome to **SUPER TIC TAC TOE** . Venture onto your conquest to rule over not just one tile...BUT **NINE**. 
 
 The objective of this game is to conquer 3 tiles in a row (vertically, horizontally, or diagonally) by winning the smaller grids within. Will your strategy be rush all your moves in a single grid right away and conquer the tile? Or do you want to invest in your future moves and spread your moves out to multiple grids? The way you play the game is entirely up to you. 
 
-###How to Play
+### How to Play
 - The game will start with a blank board and Player X going first 
 - Player X will decide a location to place their character
 - It will then be Player Os turn to place their character
@@ -15,7 +15,7 @@ The objective of this game is to conquer 3 tiles in a row (vertically, horizonta
 
 **CLICK HERE TO PLAY** [Super Tic Tac Toe](https://zainamirza.github.io/Project-1/)
 
-###Technologies Used
+### Technologies Used
 - HTML
 - CSS
 - JavaScript
