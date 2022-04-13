@@ -20,3 +20,7 @@ The objective of this game is to conquer 3 tiles in a row (vertically, horizonta
 - CSS
 - JavaScript
 - Stack Overflow
+
+### Future Updates
+- Add a feature that would let an opposing player take over your tile (forces players to play offense and defense)
+- Add crazy animations and over the top effects to winning screen
