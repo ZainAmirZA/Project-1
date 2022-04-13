@@ -6,7 +6,7 @@ We have all been playing Tic Tac Toe since we were toddlers, now its time to tak
 
 The objective of this game is to conquer 3 tiles in a row (vertically, horizontally, or diagonally) by winning the smaller grids within. Will your strategy be rush all your moves in a single grid right away and conquer the tile? Or do you want to invest in your future moves and spread your moves out to multiple grids? The way you play the game is entirely up to you. 
 
-### How to Play
+### Getting Started
 - The game will start with a blank board and Player X going first 
 - Player X will decide a location to place their character
 - It will then be Player Os turn to place their character
