@@ -15,6 +15,23 @@ The objective of this game is to conquer 3 tiles in a row (vertically, horizonta
 
 **CLICK HERE TO PLAY** [Super Tic Tac Toe](https://zainamirza.github.io/Project-1/)
 
+### Screenshots 
+
+**Starting Board** 
+![](images/blank%20board.png)
+
+**Player characters Placed**
+![](images/Characters%20Placed.png)
+
+**Player X wins a tile**
+![](images/TileX.png)
+
+**Player O wins a tile**
+![](images/TileO.png)
+
+**Player Winning Screen with Restart Button**
+![](images/PlayerWins.png)
+
 ### Technologies Used
 - HTML
 - CSS
