@@ -112,9 +112,11 @@ restartButton.addEventListener('click', startGame)
 //Remove previous marks, Only Allow a single click per cell, remove winners message
 function startGame() {
   oTurn = false
+  document.querySelectorAll('.sub-board').forEach(n =>n.classList.remove('o','x','highlight'))
   cellElements.forEach(cell => {
     cell.classList.remove(X_CLASS)
     cell.classList.remove(O_CLASS)
+    cell.classList.remove('disabled')
     cell.removeEventListener('click', takeClick)
     cell.addEventListener('click', takeClick, { once: true })
   })
@@ -150,7 +152,7 @@ function takeClick(e) {
     }) 
 
     placeBigMark(bigCell, currentClass)
-  }
+  } 
   if (checkBigWin(currentClass)) {
     endGame(false)
   } else if (isDraw()) {
@@ -176,13 +178,13 @@ function endGame(draw) {
 //Check if all cells are full with classes 
 function isDraw() {
   return [...cellElements].every(cell => {
-    return cell.classList.contains(X_CLASS) || cell.classList.contains(O_CLASS)
+    return cell.classList.contains('disabled')
   })
 }
 
 //Function to add the mark upon click aka add the class of X or O to the cell
 function placeMark(cell, currentClass) {
-  cell.classList.add(currentClass)
+  cell.classList.add(currentClass, 'disabled')
 }
 
 //Function to add a big mark upon winning grid
