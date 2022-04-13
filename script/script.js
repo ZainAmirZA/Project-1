@@ -164,7 +164,6 @@ function takeClick(e) {
 }
 
 
-
 //At the end of game show the win-screen or draw message - write whatt should be inserted in the winning message
 function endGame(draw) {
   if (draw) {
